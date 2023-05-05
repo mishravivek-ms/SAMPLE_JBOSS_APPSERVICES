@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'jakartaee-cafe-web-vm'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_57027B4CCCF9487CA8C6F637AC2D50BC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F7F2D6A789934336B415D9B20C8EF91B }}
           package: '*.war'
